@@ -5,32 +5,7 @@ built for tinkering with old hardware on the bare metal.
 
 You can find more information on its [website](https://luke8086.dev/gentleos/32).
 
-It has a pure 16-bit sibling called
-[GentleOS/16](https://github.com/luke8086/gentleos).
-
 <img src="https://luke8086.dev/gentleos/images/gentleos32-photo-t1900c-nobg.webp" width="300">
-
-## Building
-
-The only prerequisite is Docker & Docker Compose, supporting linux/amd64 platform.
-
-To compile GentleOS/32, run:
-
-```bash
-docker compose run --rm dev make -j4
-```
-
-You will find the resulting binaries in `build/`.
-
-To clean up docker artifacts, run:
-
-```bash
-docker compose down --rmi all
-```
-
-## Testing
-
-The easiest way to test is to open `gentleos32-web.html` in a browser.
 
 ## Attributions
 
